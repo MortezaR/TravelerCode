@@ -1,0 +1,14 @@
+2000>>2000
+>>wall 0 0 wall0 500 500
+wall 500 0 wall1 1000 300
+wall 0 500 wall2 300 1000
+wall 1500 1500 wall3 500 500
+wall 1500 0 wall4 500 500
+wall 0 1500 wall5 500 500
+wall 1700 500 wall6 300 1000
+wall 500 1700 wall7 1000 300
+aSwitch 300 300 switch3 true
+aSwitch 600 600 switch4 false
+enemy 400 400 bigbauss 100 1 500 500 300 500
+enemy 600 600 bigbauss 100 1 900 900 700 700
+NPC 350 700 NPC1 1 1>>

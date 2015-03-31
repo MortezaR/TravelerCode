@@ -1,0 +1,14 @@
+2000>>2000
+>>wall 0 0 wall0 500 500
+wall 500 0 wall1 1000 300
+wall 0 500 wall2 300 1000
+wall 1500 1500 wall3 500 500
+wall 1500 0 wall4 500 500
+wall 0 1500 wall5 500 500
+wall 1700 500 wall6 300 1000
+wall 500 1700 wall7 1000 300
+aSwitch 1000 1000 mainGate false
+enemy 600 600 bigbauss 100 1 900 900 700 700
+NPC 700 700 NPC1 0
+>>"Hit the switch in the middle of the stage in order to pass to the next level""Okay will do""Good"
+>>if mainGate true -> LOAD 1 2>>
